@@ -20,8 +20,9 @@ function setup() {
 function draw() {
   fill(255, 0, 0);
   ellipse(100, 100, 80, 50);
-  fill(255, 0, 0);
+  fill(0, 255, 0);
   circle(200, 200, 30);
+  fill(255, 0, 255);
   rect(30, 30, 55, 50);
   triangle(30, 75, 58, 20, 86, 75);
   quad(50, 162, 86, 150, 50, 138, 14, 150);
