@@ -41,6 +41,6 @@ function draw() {
   background(240);
   fill(0);
   if (ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2) {
-    ball.vel.x *=-1
+    ball.vel.x *= -1;
   }
 }
