@@ -1,3 +1,6 @@
+let ball; 
+let box;
+
 function setup() {
   // Set up the canvas
   new Canvas(800, 400);
@@ -37,5 +40,5 @@ function draw() {
   // write your codes here
   background(240);
   fill(0);
-  
+
 }
