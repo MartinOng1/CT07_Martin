@@ -1,6 +1,6 @@
 function setup() {
   // write your codes here
-
+  ellipse(100, 100, )
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
