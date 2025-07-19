@@ -10,6 +10,8 @@ function setup() {
 
    // Create a bouncing ball sprite
   ball = new Sprite();
+  ball.x = 100;
+  
    // write your codes here
 
 }
