@@ -25,7 +25,9 @@ function draw() {
   fill(0, 0, 255);
   rect(30, 30, 55, 50);
   nofill();
-  
+  stroke(255, 0, 0);
   triangle(30, 75, 58, 20, 86, 75);
+  nofill();
+  stroke(255, 0, 0);
   quad(50, 162, 86, 150, 50, 138, 14, 150);
 }
