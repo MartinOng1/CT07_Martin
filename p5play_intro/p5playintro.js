@@ -22,8 +22,8 @@ function setup() {
   ball.y = 200;
   ball.diameter = 40;
   ball.color = 'blue';
-  ball.vel.x = 3;
-  ball.vel.y = 3;
+  ball.vel.x = 10;
+  ball.vel.y = 10;
   ball.bounciness = 1;
   ball.collider = "dynamic";
    // write your codes here
