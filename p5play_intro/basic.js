@@ -18,6 +18,7 @@ function setup() {
   // write your codes here
 }
 function draw() {
+  noStroke();
   fill(255, 0, 0);
   ellipse(100, 100, 80, 50);
   fill(0, 255, 0);
