@@ -1,6 +1,6 @@
 function setup() {
   // write your codes here
-  
+  create 
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
@@ -16,4 +16,6 @@ function setup() {
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 }
-
+function draw() {
+  ellipse(100, 100, 80, 50);
+}
