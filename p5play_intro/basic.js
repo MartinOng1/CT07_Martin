@@ -1,6 +1,7 @@
 function setup() {
   // write your codes here
-  createCanvas()
+  createCanvas(600, 400);
+  back
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
