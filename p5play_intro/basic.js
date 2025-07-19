@@ -28,6 +28,6 @@ function draw() {
   stroke(255, 0, 0);
   triangle(30, 75, 58, 20, 86, 75);
   nofill();
-  stroke(255, 0, 0);
+  stroke(0, 0, 255);
   quad(50, 162, 86, 150, 50, 138, 14, 150);
 }
