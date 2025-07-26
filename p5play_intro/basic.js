@@ -1,8 +1,6 @@
 function setup() {
   // write your codes here
   createCanvas(800, 400);
-  background(220);
-  textsize(40);
   // --- Exercise: Area of Triangle ---
   // write your codes here
   let b = 5;
