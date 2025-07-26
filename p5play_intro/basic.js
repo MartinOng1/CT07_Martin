@@ -19,7 +19,7 @@ function setup() {
   for (let j = 10; j <=20; j++) {
     console.log(j);
   }
-  for (let k = 20; k >=1; k-1) {
+  for (let k = 20; k >=1; k--) {
     console.log(k);
   }
   for (let l = 1; l <=10; l+3) {
