@@ -51,7 +51,7 @@ function setup() {
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
   let list = ["apple, banana, cherry"];
-  listist.push("orange");
+  list.push("orange");
 }
 function draw() {
   // noStroke();
