@@ -52,6 +52,7 @@ function setup() {
   // write your codes here
   let list = ["apple, banana, cherry"];
   list.push("orange");
+  list.push("butter");
 }
 function draw() {
   // noStroke();
