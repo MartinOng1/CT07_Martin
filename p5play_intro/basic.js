@@ -13,7 +13,9 @@ function setup() {
   text(area, 400, 200);
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
-
+  for (let i = 1; i <=10; i++) {
+    console.log(i)
+  }
   // --- Exercise: Age category classification ---
   // write your codes here
 
