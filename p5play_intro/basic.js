@@ -30,7 +30,7 @@ function setup() {
     sum += i
   }
   console.log(sum);
-  text(sum, )
+  text(sum, 400, 200)
   // --- Exercise: Age category classification ---
   // write your codes here
 
