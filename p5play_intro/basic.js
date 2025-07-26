@@ -3,14 +3,14 @@ function setup() {
   createCanvas(800, 400);
   background(220);
   textsize(40);
-  
+  fill(255);
   // --- Exercise: Area of Triangle ---
   // write your codes here
   let b = 5;
   let h = 6;
   let area = 0.5 * b * h;
   console.log("Area: "+ area);
-  text(area)
+  text(area);
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
