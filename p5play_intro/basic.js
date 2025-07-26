@@ -50,7 +50,8 @@ function setup() {
   }
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
-  let list = ["apple, banana, "]
+  let list = ["apple, banana, cherry"];
+  MediaQueryList.push("orange")
 }
 function draw() {
   // noStroke();
