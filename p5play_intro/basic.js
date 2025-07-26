@@ -4,8 +4,9 @@ function setup() {
   background(220);
   // --- Exercise: Area of Triangle ---
   // write your codes here
-  let a = 
-  console.log("hi")
+  let a = 1;
+  let b = 2;
+  console.log(a+b)
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
