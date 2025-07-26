@@ -22,7 +22,7 @@ function setup() {
   for (let k = 20; k >=1; k--) {
     console.log(k);
   }
-  for (let l = 1; l <=10; l+=3) {
+  for (let l = 1; l <=45; l+=3) {
     console.log(l);
   }
   // --- Exercise: Age category classification ---
