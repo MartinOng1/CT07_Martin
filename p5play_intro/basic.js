@@ -54,7 +54,7 @@ function setup() {
   list.push("orange");
   list.push("butter");
   list.shift();
-  list.splice(1)
+  list.splice(1, "kaya");
 }
 function draw() {
   // noStroke();
