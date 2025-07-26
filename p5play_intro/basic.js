@@ -3,7 +3,7 @@ function setup() {
   createCanvas(800, 400);
   background(250);
   textSize(16);
-  fill(0);
+  fill(0);  
   // --- Exercise: Area of Triangle ---
   // write your codes here
   let b = 5;
