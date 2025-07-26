@@ -26,7 +26,7 @@ function setup() {
   //   console.log(l);
   // }
   for (let i = 0; i <= 20; i+=2) {
-    i
+    let j = j 
   }
   // --- Exercise: Age category classification ---
   // write your codes here
