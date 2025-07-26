@@ -55,6 +55,7 @@ function setup() {
   list.push("butter");
   list.shift();
   list.splice(1, "kaya");
+  console.log(list);
 }
 function draw() {
   // noStroke();
