@@ -27,9 +27,9 @@ function setup() {
   // }
   let sum = 0;
   for (let i = 0; i <= 20; i+=2) {
-    j = j + i;
+    sum += i
   }
-  console.log(j);
+  console.log(sum);
   // --- Exercise: Age category classification ---
   // write your codes here
 
