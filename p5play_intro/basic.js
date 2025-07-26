@@ -16,10 +16,10 @@ function setup() {
   for (let i = 1; i <=10; i++) {
     console.log(i)
   }
-  for (let i = 10; i <=20; i++) {
-    console.log(i)
+  for (let j = 10; j <=20; j++) {
+    console.log(j)
   }
-  for (let i = 20; i >=1; i--) {
+  for (let k = 20; k >=1; i--) {
     console.log(i)
   }
   for (let i = 1; i <=10; i+3) {
