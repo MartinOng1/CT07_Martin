@@ -57,7 +57,7 @@ function setup() {
   list.splice(1, 1, "kaya");
   for (let i = 0; i < list.length; i++) {
     console.log(list[i])
-    text()
+    text(list[i], )
   }
 
 }
