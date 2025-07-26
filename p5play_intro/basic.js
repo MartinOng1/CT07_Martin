@@ -53,7 +53,8 @@ function setup() {
   let list = ["apple", "bread", "milk"];
   list.push("orange");
   list.push("butter");
-  list.shift
+  list.shift();
+  
 }
 function draw() {
   // noStroke();
