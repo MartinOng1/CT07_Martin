@@ -13,18 +13,18 @@ function setup() {
   text(area, 400, 200);
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
-  for (let i = 1; i <=10; i++) {
-    console.log(i);
-  }
-  for (let j = 10; j <=20; j++) {
-    console.log(j);
-  }
-  for (let k = 20; k >=1; k--) {
-    console.log(k);
-  }
-  for (let l = 3; l <=46; l+=3) {
-    console.log(l);
-  }
+  // for (let i = 1; i <=10; i++) {
+  //   console.log(i);
+  // }
+  // for (let j = 10; j <=20; j++) {
+  //   console.log(j);
+  // }
+  // for (let k = 20; k >=1; k--) {
+  //   console.log(k);
+  // }
+  // for (let l = 3; l <=46; l+=3) {
+  //   console.log(l);
+  // }
   // --- Exercise: Age category classification ---
   // write your codes here
 
