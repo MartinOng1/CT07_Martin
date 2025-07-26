@@ -25,7 +25,7 @@ function setup() {
   // for (let l = 3; l <=46; l+=3) {
   //   console.log(l);
   // }
-  let j = 0;
+  let 
   for (let i = 0; i <= 20; i+=2) {
     let j = j + i;
   }
