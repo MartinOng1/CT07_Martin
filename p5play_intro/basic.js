@@ -39,7 +39,7 @@ function setup() {
   } else if (age <= 12) {
     console.log("upper primary");
   } else {
-    co
+    console.log("secondary school");
   }
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
