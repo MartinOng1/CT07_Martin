@@ -19,12 +19,12 @@ function setup() {
   for (let j = 10; j <=20; j++) {
     console.log(j);
   }
-  for (let k = 20; k >=1; k-1) {
-    console.log(k);
-  }
-  for (let l = 1; l <=10; l+3) {
-    console.log(l);
-  }
+  // for (let k = 20; k >=1; k-1) {
+  //   console.log(k);
+  // }
+  // for (let l = 1; l <=10; l+3) {
+  //   console.log(l);
+  // }
   // --- Exercise: Age category classification ---
   // write your codes here
 
