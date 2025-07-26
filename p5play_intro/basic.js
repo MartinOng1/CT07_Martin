@@ -44,9 +44,9 @@ function setup() {
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
   let i = 19;
-  while (i < 1) {
+  while (i > 1) {
     console.log(i);
-    i--;
+    i-=2;
   }
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
