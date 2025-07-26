@@ -45,7 +45,7 @@ function setup() {
   // write your codes here
   let i = 19;
   while (i <= 1) {
-    i
+    co
   }
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
