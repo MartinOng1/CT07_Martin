@@ -6,7 +6,7 @@ function setup() {
   // write your codes here
   let a = 1;
   let b = 2;
-  console.log(a+b)
+  console.log("Sum "+a+b);
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
