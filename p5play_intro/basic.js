@@ -50,7 +50,7 @@ function setup() {
   }
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
-  let list = ["apple, bread, milk"];
+  let list = ["apple", "bread, milk"];
   list.push("orange");
   list.push("butter");
   console.log(list);
