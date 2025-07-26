@@ -4,10 +4,10 @@ function setup() {
   background(220);
   // --- Exercise: Area of Triangle ---
   // write your codes here
-  let b = 1;
+  let b = 5;
   let h = 2;
   let area = 0.5 * b * h;
-  console.log("Sum: "+ sum);
+  console.log("Area: "+ area);
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
