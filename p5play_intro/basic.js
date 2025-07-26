@@ -43,7 +43,10 @@ function setup() {
   }
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
-
+  let i = 19;
+  while (i <= 1) {
+    i
+  }
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 }
