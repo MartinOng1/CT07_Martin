@@ -53,6 +53,7 @@ function setup() {
   let list = ["apple, bread, milk"];
   list.push("orange");
   list.push("butter");
+  console.log(list);
 }
 function draw() {
   // noStroke();
