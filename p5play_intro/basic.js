@@ -7,7 +7,7 @@ function setup() {
   let h = 6;
   let area = 0.5 * b * h;
   console.log("Area: "+ area);
-  text(area);
+  text(area, 400, 200);
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
