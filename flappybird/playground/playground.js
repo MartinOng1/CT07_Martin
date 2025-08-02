@@ -1,4 +1,5 @@
-let bird 
+let bird, floor;
+let 
 function preload() {
 
 }
