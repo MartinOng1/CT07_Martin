@@ -40,6 +40,6 @@ function draw() {
     fill('blue');
     textSize(14);
     text('vel.y');
-    text('isMoving: ' + )
-    text()
+    text('isMoving: ' + bird.isMoving, 10, 40);
+    text();
 }
