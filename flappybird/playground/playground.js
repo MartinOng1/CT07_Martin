@@ -9,13 +9,10 @@ function preload() {
 
 function setup() {
     new Canvas(400, 600);
-    bird = new Sprite();
-    bird.x = width/2; 
-    bird.y = 200;
-    bird.width = 30;
-    bird.height = 30;
+
+
+    bird = new Sprite(width/2, 200, 30, 30, 'dynamic');
     bird.img = flapMidImg;
-    bird -
 }
 
 function draw() {
