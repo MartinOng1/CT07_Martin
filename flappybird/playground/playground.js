@@ -37,7 +37,7 @@ function draw() {
         bird.vel.y = -4;
         bird.sleeping = false;
     }
-    fill('blue');
+    fill('black');
     textSize(14);
     text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
     text('isMoving: ' + bird.isMoving, 10, 40);
