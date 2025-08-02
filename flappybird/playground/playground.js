@@ -40,4 +40,5 @@ function draw() {
     fill('blue');
     textSize(14);
     text('vel.y');
+    text.is
 }
