@@ -1,5 +1,5 @@
 let bird, floor;
-let 
+let flapMidImf
 function preload() {
 
 }
