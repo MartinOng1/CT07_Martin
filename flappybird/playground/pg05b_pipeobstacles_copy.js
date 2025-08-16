@@ -60,6 +60,14 @@ function draw() {
     if (frameCount===1) {
         spawnPipePair();
     }
+    if (frameCount % 300 === 0) {
+        spawnPipePair();
+    }
+
+  // remove pipes when offscreen
+  for (let p of pipeGroup) {
+    if (p.x < -30) p.remove();
+  }
     // fill('black');
     // textSize(14);
     // text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
