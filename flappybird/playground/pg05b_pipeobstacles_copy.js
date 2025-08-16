@@ -64,10 +64,10 @@ function draw() {
     if (frameCount % 300 === 0) {
         spawnPipePair();
     }
-    for (let p of pipeGroup) {
-        if (p.x < -30) p.remove();
+    for (let pipe of pipeGroup) {
+        if (pipe.x < -30) pipe.remove();
     }
-    
+
     // fill('black');
     // textSize(14);
     // text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
