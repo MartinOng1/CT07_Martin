@@ -4,7 +4,7 @@ let flapMidImg, bg, base;
 function preload() {
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
-    flapDownImg = loadImage('assets/yellowbird-midflap.png');
+    flapDownImg = loadImage('assets/yellowbird-downflap.png');
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
 
