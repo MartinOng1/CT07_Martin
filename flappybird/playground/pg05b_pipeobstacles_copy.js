@@ -57,7 +57,7 @@ function draw() {
         bird.rotation = 0;
     }
 
-    if (frameCount % 300 === 0) {
+    if (frameCount % 200 === 0) {
         spawnPipePair();
     }
     for (let pipe of pipeGroup) {
