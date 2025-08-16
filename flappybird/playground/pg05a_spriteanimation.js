@@ -40,6 +40,8 @@ function draw() {
         bird.vel.y = -5;
         bird.sleeping = false;
     }
+
+    if
     fill('black');
     textSize(14);
     text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
