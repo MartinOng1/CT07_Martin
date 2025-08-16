@@ -65,7 +65,9 @@ function draw() {
         spawnPipePair();
     }
     for (let pipe of pipeGroup) {
-        if (pipe.x < -30) pipe.remove();
+        if (pipe.x < -30) {
+            pipe.remove();
+        }
     }
 
     // fill('black');
