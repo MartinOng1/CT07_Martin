@@ -1,5 +1,6 @@
 let bird, floor;
 let flapMidImg, bg, base;
+let pipeGroup, pope
 
 function preload() {
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
