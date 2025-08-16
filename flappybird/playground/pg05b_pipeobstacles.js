@@ -78,5 +78,5 @@ function spawnPipePair() {
     bottomPipe.img = pipe;
     pipeGroup.add(topPipe);
     pipeGroup.add(bottomPipe);
-    pipeGroup;
+    pipeGroup.layer = -1;
 }
