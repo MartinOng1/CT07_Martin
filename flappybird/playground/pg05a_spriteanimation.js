@@ -49,6 +49,7 @@ function draw() {
         bird.rotation = 30;
     } else {
         bird.img = flapMidImg;
+        bird.rotation = 0;
     }
     fill('black');
     textSize(14);
