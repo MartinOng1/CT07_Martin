@@ -81,6 +81,6 @@ function spawnPipePair() {
     pipeGroup.layer = 0;
 
     while (true) {
-        pipeGroup.x -= 1;
+        setTimeout
     }
 }
