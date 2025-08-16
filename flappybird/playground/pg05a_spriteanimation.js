@@ -41,7 +41,9 @@ function draw() {
         bird.sleeping = false;
     }
 
-    if(bird.vel.y <-1)
+    if(bird.vel.y <-1) {
+        bird.img = flapUpImg
+    }
     fill('black');
     textSize(14);
     text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
