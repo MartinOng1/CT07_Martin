@@ -47,6 +47,8 @@ function draw() {
     } else if (bird.vel > 1) {
         bird.img = flapDownImg;
         bird.rotation = 30;
+    } else {
+        bird.img = 
     }
     fill('black');
     textSize(14);
