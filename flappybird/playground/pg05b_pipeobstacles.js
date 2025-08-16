@@ -2,7 +2,8 @@ let bird, floor;
 let flapMidImg, bg, base;
 let pipeGroup;
 let pipe;
-let topPipe; bottomPipe;
+let topPipe;
+let bottomPipe;
 
 function preload() {
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
@@ -56,9 +57,9 @@ function draw() {
         bird.img = flapMidImg;
         bird.rotation = 0;
     }
-//     fill('black');
-//     textSize(14);
-//     text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
-//     text('isMoving: ' + bird.isMoving, 10, 40);
-//     text('sleeping: ' + bird.sleeping, 10, 60);
-    }
+    fill('black');
+    textSize(14);
+    text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
+    text('isMoving: ' + bird.isMoving, 10, 40);
+    text('sleeping: ' + bird.sleeping, 10, 60);
+}
