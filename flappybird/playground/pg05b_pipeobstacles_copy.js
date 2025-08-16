@@ -83,7 +83,7 @@ function spawnPipePair() {
 
     for (let p of pipeGroup) {
     if (p.x < -50) {
-        p.x = ;
+        p.x = 400;
     }
 }
 }
