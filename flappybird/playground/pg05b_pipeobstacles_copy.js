@@ -75,7 +75,7 @@ function draw() {
 
 function spawnPipePair() {
     let gap = 50;
-    let midY = random(200, 375);
+    let midY = random(200, 400);
 
     topPipe = new Sprite(400, midY-gap / 2 - 200, 52, 320, 'kinematic');
     topPipe.img = pipe;
