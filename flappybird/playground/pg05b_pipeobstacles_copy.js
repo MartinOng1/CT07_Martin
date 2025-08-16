@@ -82,8 +82,8 @@ function spawnPipePair() {
     pipeGroup.vel.x = -2;
 
     for (let p of pipeGroup) {
-    if (p.x < -50) {
-        p.x = 400;
+        if (p.x < -50) {
+            p.x = 400;
     }
 }
 }
