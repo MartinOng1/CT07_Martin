@@ -18,3 +18,7 @@ function setup() {
     bird.drag = 0.02;
     world.gravity.y = 10;
 }
+
+function draw() {
+    
+}
