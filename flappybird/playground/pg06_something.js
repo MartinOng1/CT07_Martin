@@ -61,10 +61,10 @@ function draw() {
         spawnPipePair();
     }
 
-    if (frameCount===1) {
+    if (frameCount%90===0) {
         spawnPipePair();
     }
-    
+
     for (let pipe of pipeGroup) {
         if (pipe.x < -50) {
             pipe.remove();
