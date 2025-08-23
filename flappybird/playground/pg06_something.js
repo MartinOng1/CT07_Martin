@@ -75,7 +75,7 @@ function draw() {
     camera.x = bird.x;
     floor.x = bird.x;
 
-    if (bird.collides(pipe) || bird.collideds(floor)) {
+    if (bird.collides(pipe) || bird.collides(floor)) {
         noLoop();
     }
     // fill('black');
