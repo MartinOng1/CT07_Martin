@@ -3,8 +3,8 @@ let flapMidImg, bg, base;
 let pipeGroup;
 let pipe;
 let topPipe, bottomPipe;
-let gameOverImg;
-let gameOverLabel;
+let gameoverImg
+let gameoverLabel;
 
 function preload() {
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
@@ -78,14 +78,14 @@ function draw() {
     camera.x = bird.x;
     floor.x = bird.x;
 
-  if(bird.collides(pipeGroup) || bird.collides(floor)) {
-    gameOverLabel = new Sprite(width/2, height/2, 173, 38); 
-    gameOverLabel.img = gameOverImg; 
-    gameOverImg.layer = 100; 
-    gameOverLabel.x = camera.x; 
-    noLoop(); 
-  }
-
+    if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y < 0) {
+        gameoverLabel = new Sprite(width/2, height/2, 173, 38);
+        gameoverLabel.img = gameoverImg;
+        gameoverLabel.layer = 100;
+        gameoverLabel.x = camera.x;
+        noLoop();
+    }
+    // fill('black');
     // textSize(14);
     // text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
     // text('isMoving: ' + bird.isMoving, 10, 40);
