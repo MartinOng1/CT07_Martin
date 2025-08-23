@@ -61,7 +61,11 @@ function draw() {
         spawnPipePair();
     }
 
-    for let 
+    for (let pipe of pipeGroup) {
+        if (pipe.x < -50) {
+            pipe.remove();
+        }
+    }
 
 
     bird.x += 3;
