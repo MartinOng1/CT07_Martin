@@ -2,7 +2,7 @@ let bird;
 let birdimg;
 
 function preload() {
-    let birdimg = loadImage('assets/yellowbird-midflap.png'); 
+    birdimg = loadImage('assets/yellowbird-midflap.png'); 
 }
 
 function setup() {
@@ -21,5 +21,5 @@ function setup() {
 }
 
 function draw() {
-    
+
 }
