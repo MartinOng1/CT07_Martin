@@ -76,7 +76,7 @@ function draw() {
     floor.x = bird.x;
 
     if (bird.collides(pipe) || bird.collideds(floor)) {
-        noLoop()
+        noLoop();
     }
     // fill('black');
     // textSize(14);
