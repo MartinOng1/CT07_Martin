@@ -3,8 +3,7 @@ let flapMidImg, bg, base;
 let pipeGroup;
 let pipe;
 let topPipe, bottomPipe;
-let gameOverImg;
-let gameOverLabel;
+
 
 function preload() {
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
