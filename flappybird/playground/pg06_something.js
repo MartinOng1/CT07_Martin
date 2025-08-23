@@ -4,6 +4,7 @@ let pipeGroup;
 let pipe;
 let topPipe, bottomPipe;
 
+
 function preload() {
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
