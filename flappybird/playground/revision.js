@@ -7,6 +7,7 @@ function preload() {
 
 function setup() {
     new Canvas(400, 600);
+    background(220);
     bird = new Sprite();
     bird.x = 300;
     bird.y = 200;
