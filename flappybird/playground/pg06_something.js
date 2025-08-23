@@ -61,6 +61,7 @@ function draw() {
         spawnPipePair();
     }
 
+    bird.x += 3;
     
     // fill('black');
     // textSize(14);
