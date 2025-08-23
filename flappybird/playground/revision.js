@@ -15,5 +15,6 @@ function setup() {
     bird.collider = "dynamic";
     bird.mass = 2;
     bird.bounciness = 1;
-    bird.velocity = 1;
+    bird.drag = 0.02;
+    world.gravity.y
 }
