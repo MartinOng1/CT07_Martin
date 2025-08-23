@@ -84,7 +84,7 @@ function draw() {
 
 function spawnPipePair() {
     let gap = 50;
-    let midY = random(225, 375);
+    let midY = random(200, 375);
 
     topPipe = new Sprite(bird.x + 400, midY-gap / 2 - 200, 52, 320, 'static');
     topPipe.img = pipe;
