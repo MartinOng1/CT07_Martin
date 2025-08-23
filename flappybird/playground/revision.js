@@ -12,5 +12,5 @@ function setup() {
     bird.width = 30;
     bird.height = 30;
     bird.img = birdimg;
-    
+    bird.collider = "dynamic"
 }
