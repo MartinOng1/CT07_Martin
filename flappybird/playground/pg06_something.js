@@ -71,10 +71,13 @@ function draw() {
         }
     }
 
-
     bird.x += 3;
     camera.x = bird.x;
     floor.x = bird.x;
+
+    if (bird.collides(pipe) || bird.collideds(floor)) {
+        
+    }
     // fill('black');
     // textSize(14);
     // text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
