@@ -100,7 +100,7 @@ function draw() {
             noLoop();
         }
     }
-    }
+}
 
 function spawnPipePair() {
     let gap = 50;
