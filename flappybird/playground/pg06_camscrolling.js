@@ -22,7 +22,7 @@ function preload() {
 function setup() {
     new Canvas(400, 600);
 
-    startScreenLabel = new Sprite();
+    startScreenLabel = new Sprite(width/2, height/2, );
 
     bird = new Sprite();
     bird.x = width/2; 
