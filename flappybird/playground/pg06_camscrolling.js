@@ -23,7 +23,7 @@ function setup() {
     new Canvas(400, 600);
 
     startScreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
-    start
+    startScreenLabel.img = 
 
     bird = new Sprite();
     bird.x = width/2; 
