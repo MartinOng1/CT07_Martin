@@ -57,6 +57,11 @@ function draw() {
         bird.sleeping = false;
     }
 
+    if(kb.presses('space') || mouse.presses('left')) {
+        bird.vel.y = -5;
+        bird.sleeping = false;
+    }
+
     if(bird.vel.y <-1) {
         bird.img = flapUpImg;
         bird.rotation = -30;
