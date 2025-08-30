@@ -24,7 +24,7 @@ function setup() {
     bird.width = 30;
     bird.height = 30;
     bird.img = flapMidImg;
-    bird.collider = 'dynamic';
+    bird.collider = 'dynamic'; // static
     bird.mass = 2;
     bird.drag = 0.02;
     bird.bounciness = 0.5;
@@ -78,12 +78,20 @@ function draw() {
     camera.x = bird.x;
     floor.x = bird.x;
 
-    if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y < 0) {
-        gameoverLabel = new Sprite(width/2, height/2, 173, 38);
-        gameoverLabel.img = gameoverImg;
-        gameoverLabel.layer = 100;
-        gameoverLabel.x = camera.x;
-        noLoop();
+    // if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y < 0) {
+    //     gameoverLabel = new Sprite(width/2, height/2, 173, 38);
+    //     gameoverLabel.img = gameoverImg;
+    //     gameoverLabel.layer = 100;
+    //     gameoverLabel.x = camera.x;
+    //     noLoop();
+    // }
+    if (bird.collides(pipeGroup) || bird.collides(floor)){
+      gameoverLabel = new Sprite(width/2, height/2, 192, 42);
+      gameoverLabel.img = gameoverImg;
+      gameoverLabel.layer = 100; // make the game over text come to front
+      gameoverLabel.x = camera.x;
+
+      noLoop(); 
     }
     // fill('black');
     // textSize(14);
