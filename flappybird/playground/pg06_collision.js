@@ -7,6 +7,7 @@ let gameoverImg
 let gameoverLabel;
 let startScreenLabel;
 let startScreenImg;
+let startGame = false;
 
 function preload() {
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
@@ -55,8 +56,6 @@ function draw() {
         bird.vel.y = -5;
         bird.sleeping = false;
     }
-
-    
 
     if(bird.vel.y <-1) {
         bird.img = flapUpImg;
