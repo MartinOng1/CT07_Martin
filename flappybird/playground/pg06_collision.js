@@ -56,7 +56,8 @@ function draw() {
         startGame = true;
         startScreenLabel.visible = false;
     }
-    
+
+    if 
     bird.x += 3;
     camera.x = bird.x;
     floor.x = bird.x;
