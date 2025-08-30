@@ -56,6 +56,10 @@ function draw() {
         startGame = true;
         startScreenLabel.visible = false;
     }
+    
+    bird.x += 3;
+    camera.x = bird.x;
+    floor.x = bird.x;
 
     if(kb.presses('space') || mouse.presses('left')) {
         bird.vel.y = -5;
@@ -86,10 +90,6 @@ function draw() {
             pipe.remove();
         }
     }
-
-    bird.x += 3;
-    camera.x = bird.x;
-    floor.x = bird.x;
 
     if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y <= 0){
         gameoverLabel = new Sprite(width/2, height/2, 173, 38);
