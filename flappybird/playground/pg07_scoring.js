@@ -123,6 +123,8 @@ function draw() {
             gameoverLabel.x = camera.x;
             noLoop();
         }
+        
+    drawScore(width/2, 20, score, digitWidth, digitHeight);
     }
 
 }
