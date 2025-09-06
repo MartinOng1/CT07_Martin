@@ -110,7 +110,7 @@ function draw() {
         for (let pipe of pipeGroup) {
             let pipeRightEdge = pipe.x + pipe.w/2;
             let birdLeftEdge = bird.x - pipe.w/2;
-            if (pipe.passed == false && pipeRigthEdge < birdLeftEdge) {
+            if (pipe.passed == false && pipeRightEdge < birdLeftEdge) {
                 pipe.passed = true;
                 score++;
             }
