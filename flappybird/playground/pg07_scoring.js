@@ -33,6 +33,8 @@ function setup() {
     startScreenLabel.img = startScreenImg;
 
     scoreDigits = new Group();
+    scoreDigits.collider = 'none';
+    
 
     bird = new Sprite();
     bird.x = width/2; 
