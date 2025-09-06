@@ -11,6 +11,7 @@ let startGame = false;
 let score  = 0;
 let numberImgs = [];
 let scoreDigits;
+let 
 
 function preload() {
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
