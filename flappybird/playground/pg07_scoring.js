@@ -34,7 +34,7 @@ function setup() {
 
     scoreDigits = new Group();
     scoreDigits.collider = 'none';
-    
+    scoreDigits.layer = 1000;
 
     bird = new Sprite();
     bird.x = width/2; 
