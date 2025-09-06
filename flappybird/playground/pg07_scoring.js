@@ -115,7 +115,7 @@ function draw() {
         }
     }
 
-    draw 
+    drawScore(width/2,)
 }
 
 function spawnPipePair() {
