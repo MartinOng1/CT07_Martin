@@ -114,6 +114,8 @@ function draw() {
             noLoop();
         }
     }
+
+    draw 
 }
 
 function spawnPipePair() {
