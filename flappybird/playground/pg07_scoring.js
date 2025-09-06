@@ -8,6 +8,9 @@ let gameoverLabel;
 let startScreenLabel;
 let startScreenImg;
 let startGame = false;
+let score  = 0;
+let numberImgs = [];
+let scoreDigits;
 
 function preload() {
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
@@ -18,6 +21,9 @@ function preload() {
     pipe = loadImage('assets/pipe-green.png');
     gameoverImg = loadImage('assets/gameover.png');
     startScreenImg = loadImage('assets/message.png')
+    for (let i = 0; i < 10; i++) {
+        numberImgs[i] = loadImage   ('assets/' + i + '.png')
+    }
 }
 
 function setup() {
