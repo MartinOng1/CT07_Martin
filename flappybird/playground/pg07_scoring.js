@@ -132,9 +132,9 @@ function spawnPipePair() {
     let gap = 50;
     let midY = random(250, 350); //bugged line. old code: let midY = random(200, 375);
 
-    // topPipe = new Sprite(bird.x + 400, midY-gap / 2 - 200, 52, 320, 'static');
-    // topPipe.img = pipe;
-    // topPipe.rotation = 180;
+    topPipe = new Sprite(bird.x + 400, midY-gap / 2 - 200, 52, 320, 'static');
+    topPipe.img = pipe;
+    topPipe.rotation = 180;
     topPipe.passed = false;
     bottomPipe = new Sprite(bird.x + 400, midY+gap / 2 + 200, 52, 320, 'static');
     bottomPipe.img = pipe;
